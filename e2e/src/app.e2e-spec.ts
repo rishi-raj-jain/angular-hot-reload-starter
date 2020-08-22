@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('dsc app is running!');
+    expect(page.getTitleText()).toEqual('anuglar-hot-reload-starter app is running!');
   });
 
   afterEach(async () => {
